@@ -28,8 +28,8 @@ sampleText3a = sampleText3.format( newName = 'mark', newFood = 'sandwich', newGa
 print(sampleText3a)
 
 
-sampleText4 = "My name is {} i love {} and playing {}" # 
-sampleText4a = sampleText4.format("mark", 'hotdog', 'ml') 
+sampleText4 = "My name is {} i love {} and playing {}" # trying simple string only
+sampleText4a = sampleText4.format("mark", 'hotdog', 'ml') # trying simple string only
 print(sampleText4a)
 
 
