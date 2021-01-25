@@ -7,7 +7,7 @@ housing_loan =  input('Housing Loan: ')
 ratePerHour = 500
 gross = ratePerHour * int(hours)
 total_deduc = (int(sss_contrib) + int(phil_health) + int(housing_loan))
-taxed = gross * 0.1
+taxed = gross * 0.12
 netIncome = gross -( int(total_deduc) + taxed) 
 
 newTotal_deduc = ( int(total_deduc) + taxed) 
