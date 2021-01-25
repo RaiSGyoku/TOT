@@ -4,6 +4,7 @@ while True:
     inp= input("Enter a Word: ")
     wordbank.append(inp)
     inResp = input('wants to try again?, Press y if Yes if no press anykey: ')
+    print(a)  
     if (inResp.upper() == 'Y'):
        continue
     else:
