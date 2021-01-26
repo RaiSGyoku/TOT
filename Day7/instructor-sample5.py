@@ -1,3 +1,4 @@
+# Handling Exceptions with external file sample
 try:
     file = open("sample6.txt")
 except FileNotFoundError as fileError:
