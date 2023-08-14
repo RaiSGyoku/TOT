@@ -38,6 +38,3 @@ def Activity2():
            F'EnglishGrade: {EnglishGrade} \n'
            F'Status: {Status}'
         '')
-
-
-print(Activity1())
