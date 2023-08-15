@@ -1,7 +1,8 @@
+from Day2.instructor_samples import *
 from Day1.instructor_samples import *# Casting_and_Operand,Variable_Data_Type_sample,Input_Functions
 
 
-def main():
+def Day1():
     print('this are the sample of variable and Data Types: ')
     print('Integer Sample: ',Variable_Data_Type_sample.integer_sample())
     print('String Sample: ',Variable_Data_Type_sample.string_sample())
@@ -16,6 +17,23 @@ def main():
 
     print('Here is the sample for input function')
     Input_Functions.Input_Sample()
+
+def Day2():
+    name = "Jasper"
+    food = 'Tocino'
+    game = 'Egmaes'
+    a = 10                  #integer value
+
+    Sample_Text1 = "JASPER MARK"
+    Sample_Text2 = 'mark'
+
+    print(Format_String_Functions.length_Sample(Sample_Text1))
+    print(Strings_and_PLace_Holders.Input_and_Place_Holder())
+
+def main():
+
+    Day2()
+    
 
 if __name__ == "__main__":
     main()
