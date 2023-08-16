@@ -47,5 +47,3 @@ class Input_Functions():
 class basic_sample():
     def Hello_World():
         return('Hello World')
-
-print(Input_Functions.Input_Sample())
