@@ -32,12 +32,13 @@ def Day2():
 
 
 
-
-    #print(Format_String_Functions.length_Sample(Sample_Text1))
-    #print(Strings_and_PLace_Holders.Input_and_Place_Holder())
+    print('\nthis are the sample of Strings, Place Holder and Numeric: ')
+    
+    #print(f"sample of Input and Place Holder\n{Strings_and_PLace_Holders.Input_and_Place_Holder()}\n")
+    print(f"sample of lenght functions \n{Format_String_Functions.length_Sample(Sample_Text1)}\n")
     
     
-    print("Numeric Sample")
+    print("\nNumeric Sample")
     print(f"sample of round function\n{ Numeric_Functions.Round_Sample(grade1)}\n")
     print(f"sample of math ceiling function\n{Numeric_Functions.Math_Ceiling_Sample(grade1,grade2)}\n" )
     print(f"sample of math floor function\n{ Numeric_Functions.Math_Floor_Sample(grade1,grade2)}\n")
@@ -45,8 +46,7 @@ def Day2():
     print(f"alternative of pow function\n{ Numeric_Functions.exponent_sample2()}\n")
 
 def main():
-    Day1()
-    print('\n')
+    #Day1()
     Day2()
     
 
