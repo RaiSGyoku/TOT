@@ -42,8 +42,6 @@ def Activity2():
     Accounting_Value = 1200
     HR_Value = 1500
 
-    #print (itValue * 10)
-    #print (accValue * 5)
     if (office_name.isalpha() == True and number_Of_Years.isdigit() == True):
         if (office_name.upper() == 'IT' and int(number_Of_Years) >= 10):
             print (IT_Value * 10)
