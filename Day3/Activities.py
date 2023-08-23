@@ -26,11 +26,9 @@ def Activity1():
         elif Math_Grade <= 74:
             print(f'Average:  {Average : .2f}')
             print('Message: ' + "Congratuations! you Passed the Semester. But you need to re-enroll Math Subject")
-
     elif Average <= 74:
         print(f'Average:  {Average : .2f}')
         print('Message: ' + "Failed this Semester. you re-enroll all subjects")
-
     else:
         print("Please Enter the Actual Grade")
 
