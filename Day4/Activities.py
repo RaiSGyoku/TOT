@@ -3,8 +3,6 @@ def Activity1(a = 1):
         print(f'{a} Love Pyhton')
         a += 1 #  a = a + 1
 
-Activity1()
-
 def Activity2():
     in1 = int(input('Enter Value 1: '))
     in2 = int(input('Enter Value 2: '))
