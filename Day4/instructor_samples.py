@@ -136,3 +136,12 @@ def List_Index_sample():
     numlist2 = [25,44,22,13,25]
     indexPos = numlist2.index(13)
     print(indexPos)
+
+#combining 2 or more list/array
+def List_Extend_sample():
+    male = ["mike","john"]
+    female =["anna", "joy"]
+
+    male.extend(female)
+    print (male)
+    print (female)
