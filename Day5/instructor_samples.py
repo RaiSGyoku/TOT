@@ -12,6 +12,12 @@ class Function_with_default_value_parameter():
     def greet(name = 'John Doe'):
         print('hi '+ name)
 
+class Function_with_return():
+    def greet():
+        return('hi ')
+
+
+
 
 
 
@@ -19,3 +25,4 @@ Defining_and_Calling_a_Function.greet() #greet()
 Function_with_Parameters.greet('john')
 Function_with_default_value_parameter.greet()
 Function_with_default_value_parameter.greet('anna')
+print(Function_with_return.greet())
