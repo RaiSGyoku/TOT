@@ -27,6 +27,18 @@ class Tuple():
         del MyAnime
         print(MyAnime) # this will raise an error because the tuple is no longer exists
 
+    def merging_two_tuple():
+        #concatenating tuple sample
+        
+        team7 = ('Naruto','Sasuke','Sakura')
+        teamBa = ('Zoneo','Damulag','Babidi')
+
+        teamAnime = (team7+teamBa)
+        print(teamAnime)
+
+
+        newteamAnime=sorted(teamAnime) # using short method
+        print(newteamAnime)
 
 
 class Dictionary():
