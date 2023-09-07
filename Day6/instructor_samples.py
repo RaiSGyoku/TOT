@@ -22,6 +22,12 @@ class Tuple():
 
         print(f'Tuple Items: {thisTuple}')
 
+    def using_delete_function():
+        MyAnime = ('Naruto', 'Goku', 'Zoneo')
+        del MyAnime
+        print(MyAnime) # this will raise an error because the tuple is no longer exists
+
+
 
 class Dictionary():
     pass
