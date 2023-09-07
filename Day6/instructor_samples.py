@@ -16,6 +16,12 @@ class Tuple():
         
         print(f"tup2[1:len(tup2): {tup2[1:len(tup2)]}") #can be use as well 
 
+    def tuple_to_list_convertion():
+        thisList = [123, 'xyz', 'zara', 'abc']
+        thisTuple = tuple(thisList)
+
+        print(f'Tuple Items: {thisTuple}')
+
 
 class Dictionary():
     pass
