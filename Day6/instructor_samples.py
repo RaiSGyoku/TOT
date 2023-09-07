@@ -40,6 +40,11 @@ class Tuple():
         newteamAnime=sorted(teamAnime) # using short method
         print(newteamAnime)
 
+    def check_value_in_tuple():
+        team7 = ('Naruto','Sakura','Sasuke')
+        if 'Naruto' in team7:
+            print('yes, "Naruto" is in the Team7 tuple ')
+
 
 class Dictionary():
     pass
