@@ -69,7 +69,10 @@ class Dictionary():
         dict = {'Name': 'Cyrel', 'Age': 19, 'Class':'1st'}
         del dict['Name']    #remove entry
         
-
+    def using_clear_function():
+        dict = {'Name': 'Cyrel', 'Age': 19, 'Class':'1st'}
+        dict.clear()        #remove all entries in dict
+        #del dict            #delete entire dictionary
 
 Tuple.usng_len_Function()
 Tuple.usng_max_Function()
