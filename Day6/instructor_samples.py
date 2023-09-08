@@ -74,6 +74,11 @@ class Dictionary():
         dict.clear()        #remove all entries in dict
         #del dict            #delete entire dictionary
 
+class sets():
+    def basic_sample():
+        fruits={'apple','banana','cherry'}
+        print(fruits)
+
 Tuple.usng_len_Function()
 Tuple.usng_max_Function()
 
