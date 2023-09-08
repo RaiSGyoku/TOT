@@ -49,13 +49,12 @@ class Tuple():
 class Dictionary():
     def baic_sample():
         dict = {'Name': 'Cyrel', 'Age': 19, 'Class':'1st'}
-        dict['Age'] = 23 #update existing entry
-        dict['School'] = 'Gallanosa NHS' #update existing entry
         
+        print('dict["Name"]:' ,dict['Name'])
         print('dict["Age"]:' ,dict['Age'])
-        print('dict["School"]:' ,dict['School'])
-
-#print(f"dict['Class']: {dict['Class']}" ) #can be use the format
+        print('dict["Class"]:' ,dict['Class'])
+        #print(f"dict['Class']: {dict['Class']}" ) #can be use the format
+        print(dict)
 
     def update_Dictionary_value():
         dict = {'Name': 'Cyrel', 'Age': 19, 'Class':'1st'}
