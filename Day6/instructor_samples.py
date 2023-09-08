@@ -65,6 +65,11 @@ class Dictionary():
         print('dict["School"]:' ,dict['School'])
         #print(f"dict['Class']: {dict['Class']}" ) #can be use the format
 
+    def using_del_function():
+        dict = {'Name': 'Cyrel', 'Age': 19, 'Class':'1st'}
+        del dict['Name']    #remove entry
+        
+
 
 Tuple.usng_len_Function()
 Tuple.usng_max_Function()
