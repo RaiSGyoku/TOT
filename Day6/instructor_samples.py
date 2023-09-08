@@ -79,6 +79,11 @@ class sets():
         fruits={'apple','banana','cherry'}
         print(fruits)
 
+    def using_add_function():
+        fruits={'Apple','Banana','santol'}
+        fruits.add('Guyabano')
+        print(fruits)
+
 Tuple.usng_len_Function()
 Tuple.usng_max_Function()
 
