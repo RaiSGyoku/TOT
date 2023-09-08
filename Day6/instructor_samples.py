@@ -84,6 +84,11 @@ class sets():
         fruits.add('Guyabano')
         print(fruits)
 
+    def using_update_function():
+        progs = {'C','C#','Java'}
+        progs.update(['PHP','JS'])
+        print(progs)
+
 Tuple.usng_len_Function()
 Tuple.usng_max_Function()
 
