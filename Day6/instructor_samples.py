@@ -89,8 +89,24 @@ class sets():
         progs.update(['PHP','JS'])
         print(progs)
 
+class modules_sample():
+    def add(num1, num2):
+        return(int(num1)+int(num2))
+    
+    def subtraction(num1, num2):
+        return(int(num1)-int(num2))
+
+    def model():
+        num1 = int(input("Enter 1st number: "))
+        num2 = int(input("Enter 2nd number: "))
+        
+        print ('the sum is: ',modules_sample.add(num1,num2))
+        print ('the subtraction is: ',modules_sample.subtraction(num1,num2))
+
 Tuple.usng_len_Function()
 Tuple.usng_max_Function()
 
 Dictionary.baic_sample()
 Dictionary.update_Dictionary_value()
+
+modules_sample.model()
