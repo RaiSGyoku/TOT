@@ -38,15 +38,19 @@ def calculator(chosen):
     elif int(chosen) == 4:
         out = value_1 / value_2
         return(f'output are: {out}')
-
+    
+def is_True():
+    while True:
+        chosen = input('Enter number 1-4\nno.1 for Addition\nno.2 for Subtration\nno.3 for Multiply\nno.4 for Division\nno 0 for exit: ')
+        if int(chosen) != 0:
+            print(calculator(chosen))
+        else:
+            break
+        
 def Activity2():
     try:
-        while True:
-            chosen = input('Enter number 1-4\nno.1 for Addition\nno.2 for Subtration\nno.3 for Multiply\nno.4 for Division\nno 0 for exit: ')
-            if int(chosen) != 0:
-                print(calculator(chosen))
-            else:
-                break
+        is_True()
+        
     except ZeroDivisionError:
         print('Division By Zero is Error !!')
     except :
