@@ -17,3 +17,17 @@ class random_fucntion():
     def using_choice_with_dictionary(generated_random = random):
         names = ['Nobita','Naruto','Picolo','Asta','Santos','julien','jan','mark','jasper','calliope']
         print(generated_random.choice(names))
+
+class Handling_Exceptions():
+    def sample_1():
+        try:
+            result = 100/0
+        except ZeroDivisionError:
+            print('Division by zero is error !!')
+        except:
+            print("Wrong input")
+        else:
+            #print("No Exceptions." , "Display the result: is: ", result)
+            print("No Exceptions." , f"Display the result: is: {result}")
+        finally:
+            print("This will Execute no matter what")
