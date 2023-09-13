@@ -13,3 +13,7 @@ class random_fucntion():
 
     def using_choice_for_str(generated_random = random):
         print(generated_random.choice(['yes','no','maybe','nope']))
+    
+    def using_choice_with_dictionary(generated_random = random):
+        names = ['Nobita','Naruto','Picolo','Asta','Santos','julien','jan','mark','jasper','calliope']
+        print(generated_random.choice(names))
