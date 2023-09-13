@@ -10,3 +10,6 @@ class random_fucntion():
 
     def using_choice_for_int(generated_random = random):
         print(generated_random.choice([10,20,30,40,50]))
+
+    def using_choice_for_str(generated_random = random):
+        print(generated_random.choice(['yes','no','maybe','nope']))
