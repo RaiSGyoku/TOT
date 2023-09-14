@@ -59,10 +59,20 @@ class Handling_Exceptions():
         finally:
             print("This will Execute no matter what")
 
-    def dealing_with_external_file():
+    def dealing_with_external_file_sample1():
         try:
             file = open("sample6.txt")
         except FileNotFoundError as fileError:
             print(fileError)
         else:
             print("file is Found!")
+
+    def dealing_with_external_file_sample2():
+        try:
+            file = open("Day7/sample6.txt")
+        except FileNotFoundError as fileError:
+            print(fileError)
+        else:
+            print("file is Found!")
+        finally:
+            file.close()
