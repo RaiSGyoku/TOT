@@ -58,3 +58,11 @@ class Handling_Exceptions():
             print("No Exceptions." , f"Display the result: is: {result}")
         finally:
             print("This will Execute no matter what")
+
+    def dealing_with_external_file():
+        try:
+            file = open("sample6.txt")
+        except FileNotFoundError as fileError:
+            print(fileError)
+        else:
+            print("file is Found!")
