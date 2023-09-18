@@ -1,5 +1,8 @@
 import os
 
+def File():
+    return('Day9/Activityinfo.txt')
+
 def is_True(inResp):
     if (inResp.upper() == 'Y'):
         return True
@@ -8,18 +11,18 @@ def is_True(inResp):
         return False
     
 def add(name,email,address):
-    file = open("Day9/Activityinfo.txt", "a")
+    file = open(File(), "a")
     file.write(f"Name = {name}, Email = {email}, Address = {address}\n")
     file.close()
 
 def view():
-    file = open("Day9/Activityinfo.txt","r")
+    file = open(File(),"r")
     print (file.read())
     file.close()
 
 def delete():
-    os.remove("Day9/Activityinfo.txt")
-    file = open("Day9/Activityinfo.txt", "a")
+    os.remove(File())
+    file = open(File(), "a")
     file.close()
     
 class Activity():
