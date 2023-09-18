@@ -17,7 +17,10 @@ def view():
     print (file.read())
     file.close()
 
-
+def delete():
+    os.remove("Day9/Activityinfo.txt")
+    file = open("Day9/Activityinfo.txt", "a")
+    file.close()
     
 class Activity():
     try:
