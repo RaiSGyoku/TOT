@@ -1,5 +1,12 @@
 import os
 
+def is_True(inResp):
+    if (inResp.upper() == 'Y'):
+        return True
+    else:
+        print('thank you')
+        return False
+    
 
     
 class Activity():
