@@ -7,6 +7,16 @@ def is_True(inResp):
         print('thank you')
         return False
     
+def add(name,email,address):
+    file = open("Day9/Activityinfo.txt", "a")
+    file.write(f"Name = {name}, Email = {email}, Address = {address}\n")
+    file.close()
+
+def view():
+    file = open("Day9/Activityinfo.txt","r")
+    print (file.read())
+    file.close()
+
 
     
 class Activity():
