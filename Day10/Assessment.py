@@ -120,7 +120,7 @@ def is_empty(name, date, time, no_adult, no_child ):
         obj = Reservation_info(str(name).replace(" ","_"), str(date), str(time), int(no_adult),  int(no_child))
         obj.MakeReservation()
 
-def test():
+def interface_POS():
     inpChoice = input("Enter no.1 for View All Reservations\nEnter no.2 for Make Reservation\nEnter no.3 for Delete Reservation\nEnter no.4 for Generate Report\nEnter no.5 for Exit\n Input: ")
     if int(inpChoice) == 1:
         obj =Reservation()
