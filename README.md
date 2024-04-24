@@ -1,6 +1,9 @@
 # TOT
 DICT Python Training
 
+this module and codes are practice for Object Calisthenics by William Durand
+with mind that not all in the Object Calisthenics may or maynot be applied for each project
+
 Day 1:
 <br />	Indentation
 <br />	Variables
